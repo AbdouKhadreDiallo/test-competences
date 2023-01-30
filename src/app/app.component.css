@@ -1,0 +1,132 @@
+
+#main{
+    background: #F5F5F5;
+}
+.content{
+    background: #1B1E27;
+    height: 100%;
+}
+
+.header, .footer{
+    height: 54px;
+    background: #272A38;
+    opacity: 1;    
+}
+.custom-white{
+    color:#D7E2F2;
+}
+:host ::ng-deep .header-top-btn .p-button{
+    height: 40px;
+    background: #303549;
+    border-radius: 4px;
+}
+:host ::ng-deep .header-top-btn .p-button .p-button-label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+.sub-header{
+    height: 54px;
+    background: #2e313f;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:host ::ng-deep .p-tabmenu .p-tabmenu-nav, :host ::ng-deep .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+    background: transparent;
+    border: none;
+}
+:host ::ng-deep .p-tabmenu .p-tabmenu-nav{
+    
+}
+:host ::ng-deep .p-tabmenu .p-tabmenu-nav .p-highlight .p-menuitem-link{
+    color: white
+}
+.nav-span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+:host ::ng-deep .p-tabmenu-ink-bar{
+    color: #0089FF;
+}
+.custom-card{
+    width: 160px;
+}
+.name{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 21px; */
+}
+.numb{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+}
+.card-color{
+    width: 100%;
+    opacity: 0.89;
+    height: 4px;
+}
+.card-sub-color{
+    background: #303549;
+    opacity: 0.89;
+    height: 6px;
+    width: 100%;
+}
+.card-sub-body{
+    width: 100%;
+    height:110px;
+}
+.card-sub-content{
+    height: 100%;
+    background: #232532;
+}
+.percent{
+    background: #232532;
+    opacity: 0.89;
+    border-radius: 6px;
+    height: 54px;
+    width: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.span-sentence{
+    color: white;
+    font-size: 13px;
+}
+.trait{
+    background-color: #F9F9F9;
+    width: 38px;
+    height:2px
+}
+.carre-vert{
+    width: 23px;
+    height: 23px;
+    background: #04978D;
+    border-radius: 3px;
+}
+.mcca{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+.carre-rouge{
+    width: 23px;
+    height: 23px;
+    background: red;
+    border-radius: 3px;
+}
